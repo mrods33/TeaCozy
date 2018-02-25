@@ -11,18 +11,27 @@ html {
 header {
   display: flex;
   width: 100%;
+  height: 69px;
   position: fixed;
   border-bottom: 1px solid seashell;
   align-items: center;
 }
 nav a {
   color: seashell;
+  margin-right: 20px;
 }
 
 nav {
-  /* text-align: right; */
+  text-align: right;
+  flex-grow: 1;
 }
 
 .logo {
-  flex-grow: 1;
+  display: flex;
+  height: 50px;
+  margin-left: 10px;
+}
+
+img {
+  width: 170px;
 }
