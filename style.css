@@ -1,4 +1,4 @@
-html {
+body {
   margin: 0;
   background-color: black;
   font-size: 22px;
@@ -8,6 +8,8 @@ html {
   text-align: center;
 }
 
+/* header */
+
 header {
   display: flex;
   width: 100%;
@@ -15,6 +17,8 @@ header {
   position: fixed;
   border-bottom: 1px solid seashell;
   align-items: center;
+  z-index: 1;
+  background-color: black;
 }
 nav a {
   color: seashell;
@@ -32,6 +36,16 @@ nav {
   margin-left: 10px;
 }
 
-img {
+.logo img {
   width: 170px;
+}
+
+/* main */
+
+.top {
+  display: flex;
+  height: 800px;
+  width: 1200px;
+  position: relative;
+  top: 69px;
 }
