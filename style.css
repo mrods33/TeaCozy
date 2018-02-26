@@ -49,6 +49,8 @@ nav {
   margin: auto;
 }
 
+/* mission */
+
 #top {
   height: 700px;
   background-image: url("images/img-mission-background.jpg");
@@ -69,4 +71,19 @@ nav {
 h2, h4 {
   margin: 0;
   padding: 10px;
+}
+
+/* teas */
+
+#middle {
+  width: 1000px;
+  margin: auto;
+}
+
+.teas {
+  width: 300px;
+}
+
+.teas img {
+  height: 200px;
 }
