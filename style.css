@@ -3,7 +3,6 @@ body {
   background-color: black;
   font-size: 22px;
   color: seashell;
-  opacity: 0.9;
   font-family: Helvetica;
   text-align: center;
 }
@@ -20,6 +19,7 @@ header {
   z-index: 1;
   background-color: black;
 }
+
 nav a {
   color: seashell;
   margin-right: 20px;
@@ -42,10 +42,31 @@ nav {
 
 /* main */
 
-.top {
-  display: flex;
-  height: 800px;
+.main {
   width: 1200px;
-  position: relative;
-  top: 69px;
+  padding-top: 69px;
+  opacity: 0.9;
+  margin: auto;
+}
+
+#top {
+  height: 700px;
+  background-image: url("images/img-mission-background.jpg");
+  padding-top: 70px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.mission {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+h2, h4 {
+  margin: 0;
+  padding: 10px;
 }
