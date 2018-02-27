@@ -77,11 +77,20 @@ h2, h4 {
 
 #middle {
   width: 1000px;
+  height: 700px;
   margin: auto;
+  padding-top: 70px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .teas {
   width: 300px;
+  margin: 15px 15px 0 15px;
 }
 
 .teas img {
